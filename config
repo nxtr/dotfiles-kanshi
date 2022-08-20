@@ -1,0 +1,21 @@
+profile {
+        output eDP-1 mode 2560x1700 scale 1.5 position 3072,297
+        output DP-1 mode 3840x2160 scale 1.25 position 0,0
+        exec swaymsg "workspace 2"
+}
+
+profile {
+        output eDP-1 mode 2560x1700 scale 2 position 1920,115
+        output DP-1 mode 3840x2160 scale 2 position 0,0
+        exec swaymsg "workspace 2"
+}
+
+
+profile {
+        output eDP-1 mode 2560x1700 scale 1.5
+}
+
+profile {
+        output DP-1 mode 3840x2160 scale 1.25
+        exec swaymsg "workspace 2"
+}
